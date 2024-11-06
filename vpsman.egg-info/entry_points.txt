@@ -1,0 +1,3 @@
+[console_scripts]
+vpsman = vpsman.cli:main
+
