@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import questionary
-from core.users import get_system_users
+from .core.users import get_system_users
 
 def main():
     choices = [

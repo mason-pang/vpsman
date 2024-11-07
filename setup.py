@@ -1,17 +1,14 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-
 setup(
     name="vpsman",
-    version="0.1.0",
+    version="0.1.1",
     author="mason_dev",
     author_email="websong16@gmail.com",
     description="A VPS management tool",
-    long_description=long_description,
+    long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/vpsman",
+    url="https://github.com/mason-webmaster/vpsman",
     packages=find_packages(),
     install_requires=[
         "questionary>=1.10.0"
