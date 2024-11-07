@@ -39,3 +39,4 @@ venv.bak/
 # 系统
 .DS_Store
 Thumbs.db
+dist/

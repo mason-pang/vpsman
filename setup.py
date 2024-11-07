@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="vpsman",
-    version="0.1.1",
+    version="0.1.2",
     author="mason_dev",
     author_email="websong16@gmail.com",
     description="A VPS management tool",
